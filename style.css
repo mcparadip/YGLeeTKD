@@ -84,9 +84,12 @@ h1, h2, h3, .text-impact {
 }
 
 @media (max-width: 768px) {
-  #slide1 {
-    height: 60vh;
-  }
+    #slide1 {
+        height: 60vh;
+    }
+    h1 {
+        font-size: 30px;
+    }
 }
 
 #slide1 .container {
