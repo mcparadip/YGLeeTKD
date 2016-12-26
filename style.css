@@ -119,3 +119,7 @@ a:active {
     color: #3333FF;
     text-decoration: none;
 }
+
+p {
+    font-size: 18px;
+}
