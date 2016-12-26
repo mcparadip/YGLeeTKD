@@ -77,10 +77,16 @@ h1, h2, h3, .text-impact {
 }
 
 #slide1 {
-    height: 60vw;
+    height: 80vh;
     background-image: url(img/1.jpg);
     background-size: cover;
     background-position: center;
+}
+
+@media (max-width: 768px) {
+  #slide1 {
+    height: 60vh;
+  }
 }
 
 #slide1 .container {
