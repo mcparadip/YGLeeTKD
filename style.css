@@ -33,6 +33,10 @@ textarea {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.jumbotron-content {
+    width: 100%;
+}
+
 .section {
     padding: 30px 20px;
     min-height: 300px;
@@ -50,7 +54,7 @@ textarea {
 
 .vert-center {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
@@ -58,17 +62,6 @@ textarea {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-}
-
-.col-vert-align-par {
-    display: table;
-    table-layout: fixed;
-}
-
-.col-vert-align {
-    float: none;
-    display: table-cell;
-    vertical-align: middle;
 }
 
 h1, h2, h3, .text-impact {
@@ -89,6 +82,9 @@ h1, h2, h3, .text-impact {
     }
     h1 {
         font-size: 30px;
+    }
+    .vert-center {
+        display: block;
     }
 }
 
