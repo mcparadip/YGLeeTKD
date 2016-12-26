@@ -77,7 +77,7 @@ h1, h2, h3, .text-impact {
 }
 
 #slide1 {
-    height: 80vh;
+    height: 60vw;
     background-image: url(img/1.jpg);
     background-size: cover;
     background-position: center;
