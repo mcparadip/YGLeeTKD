@@ -1,0 +1,110 @@
+body {
+    padding-top: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+#footer {
+    background-color: #222;
+    color: #9d9d9d;
+    min-height: 80px;
+    padding-top: 10px;
+}
+
+.fixed-background {
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fixed-background::before {
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+}
+
+.fixed-bg-content {
+    padding: 20px 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.section {
+    padding: 30px 20px;
+    min-height: 300px;
+}
+
+.section.light {
+    background-color: #eee;
+    color: #222;
+}
+
+.section.dark {
+    background-color: #222;
+    color: #eee;
+}
+
+.vert-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vert-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.col-vert-align-par {
+    display: table;
+    table-layout: fixed;
+}
+
+.col-vert-align {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1, h2, h3, .text-impact {
+    text-transform: uppercase;
+    font-weight: bold !important;
+}
+
+#slide1 {
+    height: 80vh;
+    background-image: url(img/1.jpg);
+}
+
+#slide1 .container {
+    height: 100%;
+    width: 100%;
+}
+
+#slide2 {
+    background-image: url(img/2.jpg);
+}
+
+#slide3 {
+    background-image: url(img/3.jpg);
+}
+
+a {
+    color: #3399FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3399FF;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #3333FF;
+    text-decoration: none;
+}
