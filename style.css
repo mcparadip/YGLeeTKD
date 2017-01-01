@@ -89,6 +89,9 @@ h1, h2, h3, .text-impact {
     .section {
         text-align: center;
     }
+    p {
+        font-size: 14px;
+    }
 }
 
 #slide1 .container {
