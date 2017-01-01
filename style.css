@@ -30,7 +30,6 @@ textarea {
     padding: 20px 50px;
     margin-top: 15px;
     margin-bottom: 15px;
-    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .jumbotron-content {
@@ -71,9 +70,10 @@ h1, h2, h3, .text-impact {
 
 #slide1 {
     height: 80vh;
-    background-image: url(img/bg.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(img/bg.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
