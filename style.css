@@ -70,7 +70,7 @@ h1, h2, h3, .text-impact {
 
 #slide1 {
     height: 80vh;
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(img/bg.jpg);
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(img/bgsmall.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
